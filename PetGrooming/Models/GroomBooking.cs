@@ -24,5 +24,11 @@ namespace PetGrooming.Models
                 - A list of GroomServices
                 
         */
+        public string PlannedServiceID { get; set; }
+        public int PlannedPrice { get; set; }
+        public DateTime PlannedDate { get; set; }
+        public string BookingNotes{get; set;} 
+
+
     }
 }

@@ -18,5 +18,9 @@ namespace PetGrooming.Models
                 - Cost
                 - Duration
          */
+         //GS = GroomingService
+         public string GSName { get; set; }
+        public int GSCost { get; set; }
+        public int GSDuration { get; set; }
     }
 }
